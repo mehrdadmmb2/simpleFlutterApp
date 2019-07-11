@@ -9,11 +9,11 @@ class HomePage extends State<HomeState> {
   int currentPage = 0;
 
   final List children = [
-    new Wallet(),
     new Search(),
+    new Wallet(),
     new Visit(),
     new Search(),
-    new Wallet(),
+    new Visit(),
   ];
 
   final appbar = new AppBar(
